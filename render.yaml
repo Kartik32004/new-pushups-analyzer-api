@@ -7,14 +7,3 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
-```
-
-**. gitignore**:
-```
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-env/
